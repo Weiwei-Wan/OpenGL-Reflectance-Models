@@ -1,0 +1,37 @@
+﻿main.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glewGetErrorString referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutPostRedisplay referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glutSwapBuffers referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glutKeyboardFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+main.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+main.obj : error LNK2019: unresolved external symbol aiImportFile referenced in function "struct ModelData __cdecl load_mesh(char const *)" (?load_mesh@@YA?AUModelData@@PEBD@Z)
+main.obj : error LNK2019: unresolved external symbol aiReleaseImport referenced in function "struct ModelData __cdecl load_mesh(char const *)" (?load_mesh@@YA?AUModelData@@PEBD@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewBindBuffer referenced in function "void __cdecl generateObjectBufferMesh(unsigned int &)" (?generateObjectBufferMesh@@YAXAEAI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewBufferData referenced in function "void __cdecl generateObjectBufferMesh(unsigned int &)" (?generateObjectBufferMesh@@YAXAEAI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewGenBuffers referenced in function "void __cdecl generateObjectBufferMesh(unsigned int &)" (?generateObjectBufferMesh@@YAXAEAI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewAttachShader referenced in function "void __cdecl AddShader(unsigned int,char const *,unsigned int)" (?AddShader@@YAXIPEBDI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewCompileShader referenced in function "void __cdecl AddShader(unsigned int,char const *,unsigned int)" (?AddShader@@YAXIPEBDI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewCreateProgram referenced in function "unsigned int __cdecl CompileShaders(char const *)" (?CompileShaders@@YAIPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewCreateShader referenced in function "void __cdecl AddShader(unsigned int,char const *,unsigned int)" (?AddShader@@YAXIPEBDI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewEnableVertexAttribArray referenced in function "void __cdecl generateObjectBufferMesh(unsigned int &)" (?generateObjectBufferMesh@@YAXAEAI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewGetAttribLocation referenced in function "void __cdecl generateObjectBufferMesh(unsigned int &)" (?generateObjectBufferMesh@@YAXAEAI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramInfoLog referenced in function "unsigned int __cdecl CompileShaders(char const *)" (?CompileShaders@@YAIPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramiv referenced in function "unsigned int __cdecl CompileShaders(char const *)" (?CompileShaders@@YAIPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderInfoLog referenced in function "void __cdecl AddShader(unsigned int,char const *,unsigned int)" (?AddShader@@YAXIPEBDI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderiv referenced in function "void __cdecl AddShader(unsigned int,char const *,unsigned int)" (?AddShader@@YAXIPEBDI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewGetUniformLocation referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewLinkProgram referenced in function "unsigned int __cdecl CompileShaders(char const *)" (?CompileShaders@@YAIPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewShaderSource referenced in function "void __cdecl AddShader(unsigned int,char const *,unsigned int)" (?AddShader@@YAXIPEBDI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewUniform3f referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewUniformMatrix4fv referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewUseProgram referenced in function "unsigned int __cdecl CompileShaders(char const *)" (?CompileShaders@@YAIPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewValidateProgram referenced in function "unsigned int __cdecl CompileShaders(char const *)" (?CompileShaders@@YAIPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewVertexAttribPointer referenced in function "void __cdecl generateObjectBufferMesh(unsigned int &)" (?generateObjectBufferMesh@@YAXAEAI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewBindVertexArray referenced in function "void __cdecl generateObjectBufferMesh(unsigned int &)" (?generateObjectBufferMesh@@YAXAEAI@Z)
+G:\lab1\lib\freeglut.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+G:\lab1\x64\Debug\lab1.exe : fatal error LNK1120: 35 unresolved externals
